@@ -1,0 +1,40 @@
+{
+    ["Actions"] = {
+        [1] = {
+            [1] = {
+                ["macro"] = "/targetenemy [noharm,nodead][dead][noexists]
+/castsequence 93402, 8921, 5176, 5176, 5176, 5176, 5176, 5176, 5176",
+                ["Type"] = "Action",
+                ["type"] = "macro",
+                ["target"] = " "
+            },
+            [2] = {
+                ["macro"] = "/targetenemy [noharm,nodead][dead][noexists]
+/cast [nochanneling] 197626",
+                ["type"] = "macro",
+                ["Type"] = "Action"
+            },
+            ["Type"] = "Loop",
+            ["Repeat"] = 2,
+            ["StepFunction"] = "Priority"
+        },
+        [2] = {
+            ["type"] = "macro",
+            ["macro"] = "/targetenemy [noharm,nodead]
+/cast [mod:shift] null; [noform:2] Cat Form
+/cast [mod:shift] null; [nostealth,nocombat] Prowl
+/castsequence [mod:shift] null; [nochanneling]   reset=target  Rake, null
+/cast [mod:alt,@mouseover] Wild Growth
+/castsequence [mod:shift,@focus,exists,combat,nochanneling][mod:shift,@player,combat,nochanneling]   reset=combat  102693, 391888, 102351; [@focus,exists,combat,nochanneling][@player,combat,nochanneling]   reset=combat  102693, 391888
+/cast [combat, nochanneling] Convoke the Spirits
+/cast [combat, nochanneling] Nature's Vigil",
+            ["target"] = " ",
+            ["Interval"] = 5,
+            ["Type"] = "Repeat"
+        }
+    },
+    ["InbuiltVariables"] = {
+        
+    }
+}
+

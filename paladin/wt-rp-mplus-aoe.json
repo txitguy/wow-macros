@@ -1,0 +1,139 @@
+{
+    ["Actions"] = {
+        [1] = {
+            ["type"] = "macro",
+            ["Disabled"] = false,
+            ["target"] = " ",
+            ["Type"] = "Action",
+            ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nochanneling,combat] 184662
+/cast [nochanneling,combat] 31884"
+        },
+        [2] = {
+            [1] = {
+                ["target"] = " ",
+                ["type"] = "macro",
+                ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [@player,nochanneling,combat] 343721
+/cast [nochanneling,combat] 31884",
+                ["Type"] = "Action"
+            },
+            [2] = {
+                [1] = {
+                    ["target"] = " ",
+                    ["type"] = "macro",
+                    ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nomod,nochanneling,combat] 53385; [mod:ctrl,nochanneling,@mouseover,help,nodead][mod:ctrl,nochanneling,@player] 85673
+/cast [nochanneling,combat] 31884",
+                    ["Type"] = "Action"
+                },
+                [2] = {
+                    ["target"] = " ",
+                    ["type"] = "macro",
+                    ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nochanneling,combat] 184575
+/cast [nochanneling,combat] 31884",
+                    ["Type"] = "Action"
+                },
+                [3] = {
+                    ["target"] = " ",
+                    ["type"] = "macro",
+                    ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nochanneling,combat] 20271
+/cast [nochanneling,combat] 31884",
+                    ["Type"] = "Action"
+                },
+                ["Repeat"] = 2,
+                ["Type"] = "Loop",
+                ["StepFunction"] = "Sequential"
+            },
+            [3] = {
+                [1] = {
+                    ["target"] = " ",
+                    ["type"] = "macro",
+                    ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nomod,nochanneling,combat] 53385; [mod:ctrl,nochanneling,@mouseover,help,nodead][mod:ctrl,nochanneling,@player] 85673
+/cast [nochanneling,combat] 31884",
+                    ["Type"] = "Action"
+                },
+                [2] = {
+                    ["target"] = " ",
+                    ["type"] = "macro",
+                    ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nochanneling,combat] 255937
+/cast [nochanneling,combat] 31884",
+                    ["Type"] = "Action"
+                },
+                ["Repeat"] = 1,
+                ["Type"] = "Loop",
+                ["StepFunction"] = "Sequential"
+            },
+            [4] = {
+                [1] = {
+                    ["target"] = " ",
+                    ["type"] = "macro",
+                    ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nomod,nochanneling,combat] 53385; [mod:ctrl,nochanneling,@mouseover,help,nodead][mod:ctrl,nochanneling,@player] 85673
+/cast [nochanneling,combat] 31884",
+                    ["Type"] = "Action"
+                },
+                [2] = {
+                    ["target"] = " ",
+                    ["type"] = "macro",
+                    ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nochanneling,combat] 375576
+/cast [nochanneling,combat] 31884",
+                    ["Type"] = "Action"
+                },
+                ["Repeat"] = 1,
+                ["Type"] = "Loop",
+                ["StepFunction"] = "Sequential"
+            },
+            [5] = {
+                ["target"] = " ",
+                ["type"] = "macro",
+                ["macro"] = "/targetenemy [noharm][dead]
+/startattack
+/cast [mod:alt,nochanneling,combat] 853
+/cast [@mouseover,help,dead,combat] 391054
+/cast [nochanneling,combat] 24275
+/cast [nochanneling,combat] 31884",
+                ["Type"] = "Action"
+            },
+            ["Type"] = "Loop",
+            ["Repeat"] = 2,
+            ["StepFunction"] = "Sequential"
+        }
+    },
+    ["InbuiltVariables"] = {
+        ["Combat"] = true
+    }
+}
+

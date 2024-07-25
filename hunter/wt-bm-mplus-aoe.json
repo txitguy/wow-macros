@@ -1,0 +1,105 @@
+{
+    ["Actions"] = {
+        [1] = {
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/cast [nopet,nodead] 883
+/cast [mod:ctrl,nochanneling,combat] 217200
+/cast [nochanneling,combat] 19574
+/cast [nochanneling,combat,known:Blood Fury] 20572",
+            ["Type"] = "Action",
+            ["target"] = " ",
+            ["type"] = "macro"
+        },
+        [2] = {
+            ["target"] = " ",
+            ["type"] = "macro",
+            ["Type"] = "Action",
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/cast [nopet,nodead] 883
+/cast [mod:ctrl,nochanneling,combat] 217200
+/cast [nochanneling,combat] 359844
+/cast [nochanneling,combat,known:Blood Fury] 20572"
+        },
+        [3] = {
+            ["type"] = "macro",
+            ["Disabled"] = false,
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/cast [nopet,nodead] 883
+/cast [mod:ctrl,nochanneling,combat] 217200
+/castsequence [nochanneling,combat]   reset=combat/target  217200, 217200
+/cast [nochanneling,combat,known:Blood Fury] 20572",
+            ["target"] = " ",
+            ["Type"] = "Action"
+        },
+        [4] = {
+            ["Type"] = "Action",
+            ["Disabled"] = false,
+            ["target"] = " ",
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/cast [nopet,nodead] 883
+/cast [mod:ctrl,nochanneling,combat] 217200
+/cast [nochanneling,combat] 2643
+/cast [nochanneling,combat,known:Blood Fury] 20572",
+            ["type"] = "macro"
+        },
+        [5] = {
+            [1] = {
+                ["Type"] = "Repeat",
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 217200
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+                ["Interval"] = 3,
+                ["target"] = " ",
+                ["type"] = "macro"
+            },
+            [2] = {
+                ["target"] = " ",
+                ["type"] = "macro",
+                ["Type"] = "Action",
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/cast [nopet,nodead] 883
+/cast [mod:ctrl,nochanneling,combat] 217200
+/cast [nochanneling,combat] Chakram
+/cast [nochanneling,combat,known:Blood Fury] 20572"
+            },
+            [3] = {
+                ["target"] = " ",
+                ["type"] = "macro",
+                ["Type"] = "Action",
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/cast [nopet,nodead] 883
+/cast [mod:ctrl,nochanneling,combat] 217200
+/cast [nochanneling,combat] 53351
+/cast [nochanneling,combat,known:Blood Fury] 20572"
+            },
+            [4] = {
+                ["target"] = " ",
+                ["type"] = "macro",
+                ["Type"] = "Action",
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/cast [nopet,nodead] 883
+/cast [mod:ctrl,nochanneling,combat] 217200
+/castsequence [nochanneling,combat] 2643, 34026, 34026
+/cast [nochanneling,combat,known:Blood Fury] 20572"
+            },
+            ["Type"] = "Loop",
+            ["Repeat"] = 2,
+            ["StepFunction"] = "Sequential"
+        }
+    },
+    ["InbuiltVariables"] = {
+        ["Combat"] = true
+    }
+}
+

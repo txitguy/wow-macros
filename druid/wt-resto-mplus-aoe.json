@@ -1,0 +1,25 @@
+{
+    ["Actions"] = {
+        [1] = {
+            [1] = {
+                ["macro"] = "/targetenemy [noharm,nodead][dead][noexists]
+/castsequence 93402, 8921, 197628, 197628, 197628, 197628, 197628, 197628",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [2] = {
+                ["macro"] = "/targetenemy [noharm,nodead][dead][noexists]
+/cast [nochanneling] 197626",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            ["Repeat"] = 2,
+            ["Type"] = "Loop",
+            ["StepFunction"] = "Sequential"
+        }
+    },
+    ["InbuiltVariables"] = {
+        ["Combat"] = true
+    }
+}
+

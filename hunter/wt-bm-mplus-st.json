@@ -1,0 +1,110 @@
+{
+    ["Actions"] = {
+        [1] = {
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 19574
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+            ["Type"] = "Action",
+            ["type"] = "macro",
+            ["target"] = " "
+        },
+        [2] = {
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 359844
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+            ["Type"] = "Action",
+            ["type"] = "macro",
+            ["target"] = " "
+        },
+        [3] = {
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/castsequence [nochanneling,combat]   reset=combat/target  217200, 217200
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+            ["Type"] = "Action",
+            ["type"] = "macro",
+            ["target"] = " "
+        },
+        [4] = {
+            ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 56641
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+            ["Type"] = "Action",
+            ["type"] = "macro",
+            ["target"] = " "
+        },
+        [5] = {
+            [1] = {
+                ["type"] = "macro",
+                ["target"] = " ",
+                ["Type"] = "Repeat",
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 217200
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+                ["Interval"] = 1
+            },
+            [2] = {
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 375891
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+                ["Type"] = "Action",
+                ["type"] = "macro",
+                ["target"] = " "
+            },
+            [3] = {
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 53351
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+                ["Type"] = "Action",
+                ["type"] = "macro",
+                ["target"] = " "
+            },
+            [4] = {
+                ["macro"] = "/targetenemy [noharm][dead]
+/petattack [pet,harm]
+/startattack [nocombat]
+/cast [nopet,nodead] Call Pet 1; [@pet,dead] Revive Pet
+/cast [mod:ctrl,nochanneling,combat] Barbed Shot
+/cast [nochanneling,combat] 34026
+/cast [nochanneling,combat,known:Blood Fury] Blood Fury",
+                ["Type"] = "Action",
+                ["type"] = "macro",
+                ["target"] = " "
+            },
+            ["Type"] = "Loop",
+            ["Repeat"] = 2,
+            ["StepFunction"] = "Sequential"
+        }
+    },
+    ["InbuiltVariables"] = {
+        
+    }
+}
+
