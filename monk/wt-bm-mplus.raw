@@ -1,0 +1,68 @@
+{
+    ["Actions"] = {
+        [1] = {
+            [1] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 116847",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [2] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 121253",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [3] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 115181",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [4] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 387184",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [5] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling,@player] 325153",
+                ["type"] = "macro",
+                ["Type"] = "Action"
+            },
+            ["Type"] = "Loop",
+            ["Repeat"] = 2,
+            ["StepFunction"] = "Sequential"
+        },
+        [2] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 101546",
+            ["type"] = "macro",
+            ["Type"] = "Action",
+            ["unit"] = "target"
+        },
+        [3] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 100784",
+            ["type"] = "macro",
+            ["Type"] = "Action"
+        },
+        [4] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 100780",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        },
+        [5] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/cast [nochanneling] 322101",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        }
+    },
+    ["InbuiltVariables"] = {
+        ["Combat"] = true
+    }
+}
+
