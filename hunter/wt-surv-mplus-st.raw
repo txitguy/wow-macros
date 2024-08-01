@@ -5,12 +5,12 @@
 /petattack [pet,harm]
 /cast [nopet,nodead] 83242
 /cast [mod:shift] 360952
-/castsequence 212436, 186270
+/cast 186270
 /cast [nochanneling] 186289
 /cast [nochanneling,known:Blood Fury] 20572",
-            ["type"] = "macro",
+            ["Type"] = "Action",
             ["Disabled"] = false,
-            ["Type"] = "Action"
+            ["type"] = "macro"
         },
         [2] = {
             [1] = {
