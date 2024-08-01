@@ -5,12 +5,16 @@ deuRxaakk1PqKgMQCmIYYuYZGKPbW1ivTnuQVHOgNICoHCqjTqP6HevteIUiKAJsPpIuJKQ6Kc1kf0lj
 
 This package consists of 2 elements.
 
-# Talents
+## Sequences
+- WT_SURV_ST
+- WT_SURV_AOE
+
+## Talents
 
 ```
 C8PAFBU0uAhOaNI6RqWjIx917NAAAAAAzM2mxMzMjZMzYGjxYmZmBAAAAAAAAAAAAAAaGGmZmZGzMmhxwMDjxYWmBb
 ```
 
-## Sequences
-- WT_SURV_ST
-- WT_SURV_AOE
+## Modifiers
+
+[shift] - Casts Coordinated Assault
