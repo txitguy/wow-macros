@@ -1,0 +1,84 @@
+{
+    ["Actions"] = {
+        [1] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/petattack [pet,harm]
+/cast [nopet,nodead] 83242
+/castsequence 212436, 186270
+/cast [nochanneling,combat] 20572
+/cast [nochanneling,combat] 186289",
+            ["type"] = "macro",
+            ["Disabled"] = false,
+            ["Type"] = "Action"
+        },
+        [2] = {
+            [1] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/petattack [pet,harm]
+/cast [nopet,nodead] 83242
+/cast 212431
+/cast [nochanneling,combat] 20572
+/cast [nochanneling,combat] 186289",
+                ["type"] = "macro",
+                ["Type"] = "Action"
+            },
+            ["Type"] = "Loop",
+            ["Repeat"] = 2,
+            ["StepFunction"] = "Sequential"
+        },
+        [3] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/petattack [pet,harm]
+/cast [nopet,nodead] 83242
+/cast 259495
+/cast [nochanneling,combat] 20572
+/cast [nochanneling,combat] 186289",
+            ["type"] = "macro",
+            ["Type"] = "Action"
+        },
+        [4] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/petattack [pet,harm]
+/cast [nopet,nodead] 83242
+/cast 212431
+/cast [nochanneling,combat] 20572
+/cast [nochanneling,combat] 186289",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        },
+        [5] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/petattack [pet,harm]
+/cast [nopet,nodead] 83242
+/cast 320976
+/cast [nochanneling,combat] 20572
+/cast [nochanneling,combat] 186289",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        },
+        [6] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/petattack [pet,harm]
+/cast [nopet,nodead] 83242
+/cast 259489
+/cast [nochanneling,combat] 20572
+/cast [nochanneling,combat] 186289",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        },
+        [7] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/petattack [pet,harm]
+/cast [nopet,nodead] 83242
+/cast 360952
+/cast [nochanneling,combat] 20572
+/cast [nochanneling,combat] 186289",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        }
+    },
+    ["InbuiltVariables"] = {
+        ["Combat"] = true
+    }
+}
+
