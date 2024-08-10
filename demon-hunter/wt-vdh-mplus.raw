@@ -1,0 +1,69 @@
+{
+    ["Actions"] = {
+        [1] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 344862",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        },
+        [2] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 247454",
+            ["Type"] = "Action",
+            ["type"] = "macro"
+        },
+        [3] = {
+            ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 344859",
+            ["type"] = "macro",
+            ["Type"] = "Action"
+        },
+        [4] = {
+            [1] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 258920",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [2] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 204021",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [3] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 212084",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [4] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 370965",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            [5] = {
+                ["macro"] = "/targetenemy [dead][noharm]
+/cast [mod:shift,@player] 204596
+/cast [nochanneling] 203720",
+                ["Type"] = "Action",
+                ["type"] = "macro"
+            },
+            ["Repeat"] = 2,
+            ["Type"] = "Loop",
+            ["StepFunction"] = "Sequential"
+        }
+    },
+    ["InbuiltVariables"] = {
+        ["Combat"] = true
+    }
+}
+
